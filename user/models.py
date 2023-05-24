@@ -5,5 +5,5 @@ from django.db import models
 # Create your models here.
 
 class User(AbstractUser):
-    mobile_num = models.IntegerField(max_length=100)
+    mobile_num = models.IntegerField()
     location = models.CharField(max_length=100)
